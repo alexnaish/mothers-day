@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./styles.scss");var e=document.getElementById("envelope"),n=document.getElementById("letter"),t=function(){e.classList.add("envelope--open")},d=function(){e.classList.add("envelope--discard"),n.querySelectorAll(".page__turner").forEach(c)},c=function(e){var t=e.parentNode;e.addEventListener("click",function(){return n.appendChild(t)})},i=function(){e.addEventListener("click",t),n.addEventListener("click",d)};window.addEventListener("load",i);
 },{"./styles.scss":"I4sy"}]},{},["Focm"], null)
-//# sourceMappingURL=/mothers-day.a5f82d17.js.map
+//# sourceMappingURL=/mothers-day/mothers-day.a5f82d17.js.map
